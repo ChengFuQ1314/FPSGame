@@ -1,0 +1,15 @@
+root = "./"             --now file
+thread = 8              --thread num
+logger = nil            --console log
+logpath = "."
+harbor = 1
+address = "127.0.0.1:2526"
+master = "127.0.0.1:2014"
+start = "main"	-- main script --start ?.lua
+bootstrap = "snlua bootstrap"	
+standalone = "0.0.0.0:2014"
+luaservice = "./skynet/service/?.lua;./server/login/?.lua;./server/Game/?.lua;./server/database/?.lua;./server/server/?.lua"
+lualoader = "./skynet/lualib/loader.lua"
+lua_path = "./skynet/lualib/?.lua;./skynet/lualib/?/init.lua"
+lua_cpath = "./skynet/luaclib/?.so"
+cpath = "./skynet/cservice/?.so;./server/server_cpp/?.so"
